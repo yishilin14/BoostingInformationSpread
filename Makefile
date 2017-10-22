@@ -1,4 +1,4 @@
-CXX = g++-7
+CXX = g++
 CPPFLAGS = -std=c++11 -O3 -Wall -DDSFMT_MEXP=19937 -msse2 -DHAVE_SSE2=1 -fopenmp -DNUM_THREADS=8 -DNDEBUG
 
 all: prrboost prrboost_lb heu moreseeds
