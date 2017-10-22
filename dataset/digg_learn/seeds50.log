@@ -1,0 +1,24 @@
+[0;32mProgram Start at: 2016-05-31 10:59:04[0m
+[0;32mProgram version: v1[0m
+Arguments: ./imm -dataset ./digg_learn/ -model IC -k 50 -epsilon 0.1 
+--------------------------------------------------------------------------------
+s=26707 
+arg.T=6.95272e-310 
+--------------------------------------------------------------------------------
+./digg_learn/ k=50 epsilon=0.1 IC
+########## Step1 ########## 
+x=1 estimate_influence=2532.56 
+x=2 estimate_influence=2560.78 
+x=3 estimate_influence=2545.7 
+x=4 estimate_influence=2535.17 
+########## Step2 ########## 
+opt_lower_bound=2221.07 
+step2 finish 
+g.seedSet=111 140 163 178 189 466 521 524 975 1046 1086 1230 1789 1797 1933 2008 2129 2500 2599 2744 2792 3054 3233 3376 3500 3518 3691 3695 3915 4169 4263 4271 4430 6049 6584 6704 6936 7273 7798 8349 8644 8660 8948 10531 10883 11511 11737 12473 19265 21437 
+g.InfluenceHyperGraph()=2529.72 
+########## Timer ########## 
+Spend  8.174096 seconds on step1
+Spend  1.889015 seconds on step2
+Spend  10.063143 seconds on InfluenceMaximize(Total Time)
+[0;31mProgram Terminate at: 2016-05-31 10:59:10[0m
+[0;31mProgram version: v1[0m
